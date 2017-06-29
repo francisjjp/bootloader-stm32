@@ -308,8 +308,12 @@ Several integration tests should be performed in order to verify the correct beh
 ### Sinapse Device with Main Program - ETH/WIFI Connection - New Main Program OK & New Main Program KO
 TODO
 
-### Sinapse Device with Main Program - ETH/WIFI Connection - New Main Program OK & New Main Program KO
-TODO
+### Sinapse Device with Main Program - GPRS Connection - New Main Program OK & New Main Program KO
+
+Test 5. Ideal Situation testing.
+
+It was tested that if remote HTTP has not file, the program that is downloaded in 0x8008000 flash address in one HTTP respone and not any program, for this reason, the application client is not loaded. ("Page not found" response HTTP message from server is saved in flash).
+
 
 # Validation and closing
 
