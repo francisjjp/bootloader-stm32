@@ -308,8 +308,14 @@ Several integration tests should be performed in order to verify the correct beh
 ### Sinapse Device with Main Program - ETH/WIFI Connection - New Main Program OK & New Main Program KO
 TODO
 
-### Sinapse Device with Main Program - ETH/WIFI Connection - New Main Program OK & New Main Program KO
-TODO
+### Sinapse Device with Main Program - GPRS Connection - New Main Program OK & New Main Program KO
+TEST 5. IDEAL SITUATION:
+
+It was tested that if there is not any firmware file in remote HTTP server, the position at starting in 0x8008000 in flash is a respone HTTP message from server ("Page not found" http message) and not any application program. (CRC is checked???). 
+
+remote HTTP server was: sinapseenergia.com:80.
+remote file is: CMC.bin.
+
 
 # Validation and closing
 
